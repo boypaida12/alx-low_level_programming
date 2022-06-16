@@ -21,12 +21,12 @@ char *cap_string(char *n)
 
 		j = 0;
 
-		for (h = 0; x <= 12; x++)
+		for (h = 0; h <= 12; h++)
 		{
 			if (n[i] == k[h])
 			{
 				h = 12;
-				k = 32;
+				j = 32;
 			}
 		}
 	}
