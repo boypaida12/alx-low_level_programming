@@ -9,14 +9,14 @@
 char *cap_string(char *n)
 {
 	int h, i;
-	int j = ' ';
+	int j = 32;
 	int k[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
 		if (n[1] >= 'a' && n[i] <= 'z')
 		{
-			n[i] = n[i] - ' ';
+			n[i] = n[i] - j;
 		}
 
 		j = 0;
