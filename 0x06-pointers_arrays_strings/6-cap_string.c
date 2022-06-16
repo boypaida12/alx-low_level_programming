@@ -8,7 +8,7 @@
 
 char *cap_string(char *n)
 {
-	int h, i;
+	int i, h;
 	int j = 32;
 	int k[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
 
