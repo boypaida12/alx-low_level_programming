@@ -6,7 +6,7 @@
  * @argv: array of arguments passed during compilation
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	if (argc > 0)
 		printf("%d\n", argc - 1);
